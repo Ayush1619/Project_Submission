@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".contact">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="E-mail: legohouse@gmail.com"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="Phone NO:::9994442011"
+        android:textSize="30dp"
+        android:layout_marginTop="100dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/no"
+        android:layout_marginTop="50dp"
+        android:inputType="number"
+        android:hint="Enter number"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:text="Tap to call"/>
+
+</LinearLayout>
